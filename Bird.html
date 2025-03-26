@@ -1,0 +1,36 @@
+<html>
+<head>
+    <title>BirdGame</title>
+</head>
+<style>
+
+    body{
+        background-image: url("images/start.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        cursor: url('images/sniper.png'), auto;
+    }
+    #start{
+        width: 320px;
+        height: 80px;
+        margin:420px 0 0 420px ;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    p{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 29px;
+        color: rgb(255, 187, 0);
+        font-weight: bold;
+        display:none;
+        margin: 15px;
+}
+</style>
+<body>
+    <p id="score">Score: <span id="acheive">0</span></p>
+    <input id="start" type="button" >
+    <script src="Bird.js"></script>
+</body>
+</html>
